@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Formulaire </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/styleFormulaire.css" />
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Client</legend>
+
+            <label>Civilité :</label>
+            <input type="radio" name="civilite" class="label"> Mademoiselle
+            <input type="radio" name="civilite" checked class="label"> Madame
+            <input type="radio" name="civilite" class="label"> Monsieur
+            <br>
+            <label>Nom / Prénom </label>
+            <input type="text" name="nom" class="label">
+            <br>
+            <label>Adresse </label>
+            <textarea cols="50" rows="5" class="label">Rue No &#10Boite postale </textarea>
+            <br>
+            <label>No postal / Localité </label>
+            <input type="text" maxlength="5" class="label">
+            <input type="text" value="Lyon" class="label">
+            <br>
+            <label>Pays </label>
+            <select class="label">
+                <option value="france">France</option>
+                <option value="suisse"selected>Suisse</option>
+                <option value="italie">Italie</option>
+                <option value="espagne">Espagne</option>
+            </select>
+            <br>
+            <label for="plateforme">Plateforme(s) </label>
+            <input type="checkbox" id="windows" name="plateforme" class="label"> Windows
+            <input type="checkbox" id="macintosh" name="plateforme" class="label"> Macintosh
+            <input type="checkbox" id="unix" name="plateforme" class="label"> Unix
+            <br>
+            <label>Application(s) </label>
+            <select size="5" multiple class="label">
+                <option selected>Bureautique</option>
+                <option>DAO</option>
+                <option>Statistiques</option>
+                <option>SGBD</option>
+                <option selected>Internet</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Soumettre formulaire">
+        <input type="reset" value="Effacer">
+    </form>
+</body>
