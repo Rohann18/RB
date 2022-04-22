@@ -1,0 +1,19 @@
+fieldset {
+    background-color: rgb(255, 244, 210);
+}
+
+legend{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+label{
+    position: fixed;
+    padding-top: 2cm;
+    left: 20px; 
+}
+
+.label {
+    margin-left: 10cm;
+    margin-bottom: 2cm;
+}

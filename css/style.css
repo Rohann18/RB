@@ -1,0 +1,51 @@
+/*
+    nomBalise {
+        propriete: valeur;
+        propriete: valeur;
+    }
+*/
+
+h1, h3, h5, #text{
+    color: red;
+}
+
+div {
+    background-color: #aa45ff;
+}
+
+#header {
+    font-size: 50px;
+    background-color: #cccccc;
+}
+
+.similaire {
+    font-weight: bold;
+}
+
+section > article {
+    text-decoration: underline;
+}
+
+ul > li{
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    border: 1px dotted blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+ol, ul > li{
+    background-color: rgb(33, 206, 47);
+}
+
+body > p {
+    border: 1px solid green;
+    width: 50%;
+    height: 5%;
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+}

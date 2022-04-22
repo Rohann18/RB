@@ -1,0 +1,42 @@
+header {
+    background-color: yellow;
+}
+
+h1 {
+    display: inline;
+}
+
+body {
+    background-color: silver;
+}
+
+h2 {
+    background-color: green;
+}
+
+h3 {
+    background-color: purple;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td {
+    background-color: green;
+    border: 5px solid red ;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
